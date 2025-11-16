@@ -10,7 +10,7 @@ This project demonstrates a professional 3-tier (Controller-Service-Repository) 
     * `Spring Web` (for REST API)
     * `Spring Data JPA`
 * **Hibernate** (as the JPA provider)
-* **H2 Database** (In-memory)
+* **SQL (via H2 Database)** The project uses an in-memory SQL database.
 * **Maven**
 * **JUnit 5**
 * **Lombok**
@@ -41,3 +41,7 @@ Provides basic **CRUD** (Create, Read, Delete) functionality for messages:
 2.  **Test (API):** Use an API client (like Postman) to send `GET`, `POST`, and `DELETE` requests to the endpoints.
 3.  **Test (Database):** While running, view the H2 in-memory database at `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:testdb`).
 4.  **Test (Unit):** Run the JUnit tests located in `src/test/java/`.
+5.  **Test (Raw SQL):** You can run raw **SQL** queries directly in the H2-Console. For example:
+    ```sql
+    SELECT * FROM MESSAGE WHERE SENDER = 'Dima';
+    ```
