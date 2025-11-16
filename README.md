@@ -1,4 +1,4 @@
-# Chat Message REST API (Spring Boot)
+# Spring Boot Chat API
 
 A REST API for managing chat messages, built with the Spring Boot stack.
 
@@ -45,5 +45,6 @@ Provides basic **CRUD** (Create, Read, Delete) functionality for messages:
     ```sql
     SELECT * FROM MESSAGE WHERE SENDER = 'Dima';
     ```
+
 
 
