@@ -1,0 +1,21 @@
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "sender": "Dima",
+  "content": "Hello Spring!"
+}
+
+POST http://localhost:8080/messages
+Content-Type: application/json
+
+{
+  "sender": "Anna",
+  "content": "It works!"
+}
+
+GET http://localhost:8080/messages
+
+DELETE http://localhost:8080/messages/1
+
+GET http://localhost:8080/messages
