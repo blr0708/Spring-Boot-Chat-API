@@ -27,7 +27,7 @@ Provides basic **CRUD** (Create, Read, Delete) functionality for messages:
     * **Required Request Body (JSON):**
         ```json
         {
-          "sender": "Dima",
+          "sender": "Jack",
           "content": "Hello Spring!"
         }
         ```
@@ -43,8 +43,9 @@ Provides basic **CRUD** (Create, Read, Delete) functionality for messages:
 4.  **Test (Unit):** Run the JUnit tests located in `src/test/java/`.
 5.  **Test (Raw SQL):** You can run raw **SQL** queries directly in the H2-Console. For example:
     ```sql
-    SELECT * FROM MESSAGE WHERE SENDER = 'Dima';
+    SELECT * FROM MESSAGE WHERE SENDER = 'Jack';
     ```
+
 
 
 
